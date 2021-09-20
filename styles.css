@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+.carrito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrito__h3{
+    font-size: xx-large;
+    margin-right: 50px;
+}
+
+i{
+    font-size: xx-large;
+}
+
+img{
+    width:250px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+
+.products{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.products__box{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    margin: 30px;
+    border-radius: 5px;
+}
