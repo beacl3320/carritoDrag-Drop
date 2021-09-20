@@ -4,26 +4,23 @@
 }
 
 .carrito{
-    background: rgba(219, 214, 214, 0.986);
+    background: rgba(128, 128, 128, 0.589);
     height: 100px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-    padding: 15px 20px;
+    flex-direction: row;
 }
 
 .carrito__logo{
     display: flex;
+    justify-content: flex-start;
     align-items: center;
-    margin-left: 50px;
 }
 
 .carrito__carro{
     display: flex;
+    justify-content: flex-end;
     align-items: center;
-    margin-right: 50px;
 }
 
 .butterfly{
@@ -33,7 +30,6 @@
 
 .carrito__h3{
     font-size: xx-large;
-    margin-right: 20px;
 }
 
 i{

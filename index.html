@@ -1,60 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <title>Document</title>
-</head>
-<body>
-    <nav class="carrito">
-            <h3 class="carrito__h3">Mi carrito</h3>
-            <i class="fas fa-cart-arrow-down"></i>
-    </nav>
-    <div class="products">
-        <div class="products__box">
-            <img src="/assets/camiseta.jpg" alt="camiseta">
-            <p>Camiseta Jordan</p>
-            <p>20,99€</p>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+            integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+            crossorigin="anonymous"
+        />
+        <title>Document</title>
+    </head>
+    <body>
+        <nav class="carrito">
+            <div class="carrito__logo">
+                <img class="butterfly" src="/assets/Mariposa-Violeta.png" alt="" />
+                <h3 class="carrito__h3">BeaCL Desing</h3>
+            </div>
+            <div class="carrito__carro">
+                <h3 class="carrito__h3">Mi carrito</h3>
+                <i class="fas fa-cart-arrow-down"></i>
+            </div>
+        </nav>
+        <div class="container" id="container">
+            <p>Arrastra aquí los productos</p>
         </div>
-        <div class="products__box">
-            <img src="/assets/camisetagato.jpg" alt="camiseta gato">
-            <p>Camiseta Gato</p>
-            <p>11,99€</p>
+        <div class="products">
+            <div class="products__box" id="product" draggable="true">
+                <img src="/assets/camiseta.jpg" alt="camiseta" />
+                <p>Camiseta Jordan</p>
+                <p>20,99€</p>
+            </div>
+            <div class="products__box" id="product" draggable="true">
+                <img src="/assets/camisetagato.jpg" alt="camiseta gato" />
+                <p>Camiseta Gato</p>
+                <p>11,99€</p>
+            </div>
+            <div class="products__box" id="product" draggable="true">
+                <img src="/assets/falda.jpg" alt="falda" />
+                <p>Falda</p>
+                <p>10,99€</p>
+            </div>
+            <div class="products__box" id="product" draggable="true">
+                <img src="/assets/mochila.jpg" alt="mochila" />
+                <p>Mochila Patrulla Canina</p>
+                <p>12.99€</p>
+            </div>
+            <div class="products__box" id="product" draggable="true">
+                <img src="/assets/panatlon.jpg" alt="pantalon" />
+                <p>Pantalón</p>
+                <p>20,99€</p>
+            </div>
+            <div class="products__box" id="product" draggable="true">
+                <img src="/assets/sudadera.jpg" alt="sudadera" />
+                <p>Sudadera</p>
+                <p>24,99€</p>
+            </div>
+            <div class="products__box" id="product" draggable="true">
+                <img src="/assets/vaquero.jpg" alt="vaquero" />
+                <p>Vaquero</p>
+                <p>19,99€</p>
+            </div>
+            <div class="products__box" id="product" draggable="true">
+                <img src="/assets/vestido.jpg" alt="vestido" />
+                <p>Vestido</p>
+                <p>14,99€</p>
+            </div>
         </div>
-        <div class="products__box">
-            <img src="/assets/falda.jpg" alt="falda">
-            <p>Falda</p>
-            <p>10,99€</p>
-        </div>
-        <div class="products__box">
-            <img src="/assets/mochila.jpg" alt="mochila">
-            <p>Mochila Patrulla Canina</p>
-            <p>12.99€</p>
-        </div>
-        <div class="products__box">
-            <img src="/assets/panatlon.jpg" alt="pantalon">
-            <p>Pantalón</p>
-            <p>20,99€</p>
-        </div>
-        <div class="products__box">
-            <img src="/assets/sudadera.jpg" alt="sudadera">
-            <p>Sudadera</p>
-            <p>24,99€</p>
-        </div>
-        <div class="products__box">
-            <img src="/assets/vaquero.jpg" alt="vaquero">
-            <p>Vaquero</p>
-            <p>19,99€</p>
-        </div>
-        <div class="products__box">
-            <img src="/assets/vestido.jpg" alt="vestido">
-            <p>Vestido</p>
-            <p>14,99€</p>
-        </div>
-    </div>
-    <script src="index.js"></script>
-</body>
+        <script src="index.js">
+            
+        </script>
+    </body>
 </html>
